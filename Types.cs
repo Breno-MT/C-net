@@ -27,6 +27,13 @@ namespace Name
             float -> up to 7 digits e.g: 9.1234567F is a float
             double -> e.g: 0.42d is a double
             */
+
+            // Nullable
+            //string? myName = "";
+            // int? number = null;
+
+            // Reference Type
+            //Reference type data types are string, class, Array etc...
             
 
             // Types of Comments
