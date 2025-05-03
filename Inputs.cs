@@ -5,5 +5,6 @@ class Inputs {
         Console.WriteLine("Hello, type your name:");
         string userInput = Console.ReadLine();
         Console.WriteLine("Nice to meet you, " + userInput + "!");
+        // Console.WriteLine($"Nice to meet you, {userInput}");     // Format
     }
 }
