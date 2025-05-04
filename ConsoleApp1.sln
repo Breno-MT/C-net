@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TryParse", "TryParse\TryPar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fields", "Fields\Fields.csproj", "{B3EBDA93-DB1E-4574-AA66-6E5561AA70D9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loops", "Loops\Loops.csproj", "{A8390E02-EA5B-4E2E-8A8B-B6E3AB932019}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -60,5 +62,9 @@ Global
 		{B3EBDA93-DB1E-4574-AA66-6E5561AA70D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B3EBDA93-DB1E-4574-AA66-6E5561AA70D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B3EBDA93-DB1E-4574-AA66-6E5561AA70D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8390E02-EA5B-4E2E-8A8B-B6E3AB932019}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8390E02-EA5B-4E2E-8A8B-B6E3AB932019}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8390E02-EA5B-4E2E-8A8B-B6E3AB932019}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8390E02-EA5B-4E2E-8A8B-B6E3AB932019}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
