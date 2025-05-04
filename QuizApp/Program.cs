@@ -5,9 +5,10 @@
 int score = 0;
 
 Console.WriteLine("What's the color of the sky?");
+string answer1 = "Blue";
 string userAnswer1 = Console.ReadLine();
 
-if (userAnswer1 == "Blue" || userAnswer1 == "blue") {
+if (userAnswer1.Trim().ToLower() == answer1.ToLower()) {
     Console.WriteLine("You got it right!");
     score++;
 }
@@ -17,9 +18,10 @@ else {
 }
 
 Console.WriteLine ("What's 11*11?");
+int answer2 = 121;
 int userAnswer2 = int.Parse(Console.ReadLine());
 
-if (userAnswer2 == 121) {
+if (userAnswer2 == answer2) {
     Console.WriteLine("Nice! It's correct!");
     score++;
 }
@@ -29,9 +31,10 @@ else {
 }
 
 Console.WriteLine("Last question! What's the capital of Brasil?");
+string answer3 = "Brasilia";
 string userAnswer3 = Console.ReadLine();
 
-if (userAnswer3 == "Brasilia" || userAnswer3 == "brasilia") {
+if (userAnswer3.Trim().ToLower() == answer3.ToLower()) {
     Console.WriteLine("Correct! You got it right!");
     score++;
 }
