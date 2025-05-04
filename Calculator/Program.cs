@@ -19,6 +19,21 @@ sum = Math.Round(sum, 2);
 int myInt1 = 12;
 double myInt2 = myInt1;
 long myLong = myInt1;
+//
+
+//
+float myFloat = 123.123f;
+double myDouble = 13.2123123123;
+// Explicity conversion
+myFloat = (float)myDouble;
+Console.WriteLine(myFloat);
+
+// Explicity casting
+int isInt;
+double myDouble3 = 13.5;
+isInt = (int)myDouble3;
+Console.WriteLine(isInt);
+
 
 Console.WriteLine($"The sum of this two numbers are: {sum}");
 
