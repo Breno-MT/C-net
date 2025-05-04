@@ -5,6 +5,10 @@ void AddNumbers(int num1, int num2) {
 }
 
 // In this case, it has to return something
+// static makes not necessary to instance the class to use it
+// e.g: public class Calculator ... float SubNumbers (in this case you would need to -> Calculator myCalc = new Calculator() )
+// and then myCalc.SubNumbers();
+// with static you should just use subNumbers(), simple as that. Inside the scope that is.
 static int SubNumbers(int num1, int num2) {
     int result = num1 - num2;
     return result;
