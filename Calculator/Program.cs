@@ -14,6 +14,7 @@ number2 = double.Parse(userInput2, CultureInfo.InvariantCulture);       // Some 
 
 double sum = number1 + number2;
 sum = Math.Round(sum, 2);
+Console.WriteLine($"The sum of this two numbers are: {sum}");
 
 // Implicity conversion
 int myInt1 = 12;
@@ -34,6 +35,11 @@ double myDouble3 = 13.5;
 isInt = (int)myDouble3;
 Console.WriteLine(isInt);
 
+// Conversion Helpers Parse and Convert
+string numberString = "123";
+int result = int.Parse(numberString);
+Console.WriteLine(result);
 
-Console.WriteLine($"The sum of this two numbers are: {sum}");
-
+string myBoolString = "true";
+bool myBool = Convert.ToBoolean(myBoolString);
+Console.WriteLine(myBool);
