@@ -15,5 +15,10 @@ number2 = double.Parse(userInput2, CultureInfo.InvariantCulture);       // Some 
 double sum = number1 + number2;
 sum = Math.Round(sum, 2);
 
+// Implicity conversion
+int myInt1 = 12;
+double myInt2 = myInt1;
+long myLong = myInt1;
+
 Console.WriteLine($"The sum of this two numbers are: {sum}");
 
