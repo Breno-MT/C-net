@@ -60,3 +60,23 @@ switch (score) {
         Console.WriteLine("It's alright... somewhat you tried... :(");
         break;
 }
+
+// Incrementing and Decrement (with prefix and postfix)
+// --x -> prefix
+// y-- -> postfix
+// int x = 5;
+// int y = 10;
+
+// System.Console.WriteLine("x:{0} and y: {1}", x, y);
+
+// // Increment
+// int z = ++x; // x is now 6, z is also 6 (prefix)
+// int w = y++; // y is now 11, w is 10 (postfix)
+// System.Console.WriteLine("z:{0} and w: {1}", z, w);
+// System.Console.WriteLine("x:{0} and y: {1}", x, y);
+
+// // Decrement
+// int a = --x; // x is now 5, a is also 5 (prefix)
+// int b = y--; // y is now 10, b is 11 (postfix)
+// System.Console.WriteLine("a:{0} and b: {1}", a, b);
+// System.Console.WriteLine("x:{0} and y: {1}", x, y);
