@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "Calculator\Calculator.csproj", "{8C04DFBC-95AE-41A3-AABB-D1B802D55F2B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp2", "ConsoleApp2\ConsoleApp2.csproj", "{9AF2C662-1A5A-46AF-86DF-E97853B57183}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{8C04DFBC-95AE-41A3-AABB-D1B802D55F2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C04DFBC-95AE-41A3-AABB-D1B802D55F2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C04DFBC-95AE-41A3-AABB-D1B802D55F2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AF2C662-1A5A-46AF-86DF-E97853B57183}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AF2C662-1A5A-46AF-86DF-E97853B57183}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AF2C662-1A5A-46AF-86DF-E97853B57183}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AF2C662-1A5A-46AF-86DF-E97853B57183}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
