@@ -3,6 +3,9 @@ int[] myIntArray = new int[5];
 
 // Or declare it with the values already in it
 int[] myIntArray2 = [5,12,55,16,19];
+// some previous versions of C# requires the array to be initialized using braces instead of brackets
+// int[] myIntArray2 = {5,12,55,16,19}
+// changing from [] to {}
 
 string[] weekDays = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]
 
