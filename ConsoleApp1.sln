@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fields", "Fields\Fields.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loops", "Loops\Loops.csproj", "{A8390E02-EA5B-4E2E-8A8B-B6E3AB932019}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassesApp", "ClassesApp\ClassesApp.csproj", "{AAEC5048-9753-438D-9BDF-BBBD8382231F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -66,5 +68,9 @@ Global
 		{A8390E02-EA5B-4E2E-8A8B-B6E3AB932019}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A8390E02-EA5B-4E2E-8A8B-B6E3AB932019}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A8390E02-EA5B-4E2E-8A8B-B6E3AB932019}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAEC5048-9753-438D-9BDF-BBBD8382231F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAEC5048-9753-438D-9BDF-BBBD8382231F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAEC5048-9753-438D-9BDF-BBBD8382231F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAEC5048-9753-438D-9BDF-BBBD8382231F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
