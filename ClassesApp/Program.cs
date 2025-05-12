@@ -30,5 +30,12 @@ class Program
         Car myBmw = new Car("318i", "BMW", false);
         myBmw.Drive();
 
+        Customer customer = new Customer();
+        customer.SetDetails("Nick", "Where");
+        Console.WriteLine("{0} {1} {2}", customer.Name, customer.Address, customer.ContactNumber);
+
+        Customer customer1 = new Customer("Oliver");
+        Console.WriteLine("{0} {1} {2}", customer1.Name, customer1.Address, customer1.ContactNumber);
+
     }
 }
