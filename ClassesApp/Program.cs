@@ -37,5 +37,12 @@ class Program
         Customer customer1 = new Customer("Oliver");
         Console.WriteLine("{0} {1} {2}", customer1.Name, customer1.Address, customer1.ContactNumber);
 
+        // Named Parameters
+        static int AddNum(int firstNum, int secondNum) {
+            return firstNum + secondNum;
+        }
+        int result = AddNum(firstNum: 15, secondNum: 15);
+        Console.WriteLine(result);
+
     }
 }
